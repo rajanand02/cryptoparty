@@ -29,6 +29,11 @@
         <div class="header row">
           <div class="welcome">
             <h2>Welcome to Crypto Party</h2>
+            {{#if currentUser}}
+            <p class = "notice">Select the event and set your RSVP</p>
+            {{else}}
+            <p class = "notice">Please Sign in to set your RSVP</p>
+            {{/if}}
           </div>
         </div>
 
