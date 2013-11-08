@@ -91,3 +91,18 @@ input.chosen {
 #login-buttons.login-buttons-dropdown-align-right .login-close-text {
     color: #18BC9C;
 }
+
+#login-buttons #signup-link {
+  color: #18BC9C;
+}
+body {
+  
+}
+.sign_in{
+  line-height: 28px;
+}
+.welcome{
+  color: #817070;
+  text-align: center;
+  margin-bottom: 20px;
+}
