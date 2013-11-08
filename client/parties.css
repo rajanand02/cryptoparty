@@ -99,6 +99,9 @@ input.chosen {
 #login-buttons #forgot-password-link {
   color: #18BC9C;
 }
+#login-buttons #back-to-login-link{
+  color: #18BC9C;
+}
 body {
 
 }
