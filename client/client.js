@@ -275,3 +275,10 @@ Template.inviteDialog.uninvited = function () {
 Template.inviteDialog.displayName = function () {
   return displayName(this);
 };
+
+Template.sendMessageDialog.events({
+  'click.sendMessage' :function(){
+    var msg = document.getElementById("message").value;
+    Meteor.call('sendMessage', Session.get("userId"), msg)
+  }
+});
